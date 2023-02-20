@@ -42,9 +42,9 @@ let getWeather = () => {
         </div>
         `;
       })
-      //If city name is NOT valid
+      
       .catch(() => {
-        result.innerHTML = `<h3 class="msg">City not found</h3>`;
+        result.innerHTML = `<h4 class="msg">City not found</h3>`;
       });
   }
 };
